@@ -1,0 +1,304 @@
+@font-face {
+  font-family: SGK;
+  src:url("../font/SGK001.ttf");
+}
+*{
+  margin-left: 2px;
+  margin-right: 2px;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/*Barre de navigation*/
+
+
+ul{
+  display: table;
+  margin: auto;
+  width: auto;
+  height: auto;
+  border-spacing: 15px;
+}
+li{
+  display: table-cell;
+  font-family: cursive;
+  font-size: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+#logo{
+  position:absolute;
+  top:15px;
+  right:30px;
+  height: 60px;
+}
+nav{
+  background-color: #577cad;
+}
+
+
+/*Présentation*/
+
+
+h1{
+  font-family: SGK;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 6px;
+}
+#simplon{
+  height: 200px;
+  width: 250px;
+  float: right;
+  margin-bottom: auto;
+  margin-top: 0;
+}
+body{
+ background-color: #000000;
+}
+#presentation{
+  background-color: #577cad;
+  height: 200px;
+  color: #000000
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*Partie présentation terminer*/
+
+
+/*Partie avec le 1er challenge*/
+
+#Challenge{
+  width: auto;
+  background-color: #577cad;
+  height: 200px;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#chall{
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-top:0;
+}
+
+h2{
+
+  text-align: center;
+  margin-bottom:  20px;
+}
+#acceuilfleur{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin-top: 0;
+
+}
+#Acceuilsite{
+  width: auto;
+  height: 300px;
+  background-color: #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*fin de la partie avec l'acceuil*/
+
+/*début de la partie avec nos produit*/
+#nosproduit{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin-top: 0;
+}
+#Produit{
+  width: auto;
+  height: 300px;
+  background-color: #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*fin de la partie avec nos produit */
+
+/*début de la partie "NOUS"*/
+#nous{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin-top: 0;
+}
+#idNous{
+  width: auto;
+  height: 300px;
+  background-color: #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*fin de la partie "Nous"*/
+
+/*début de la partie "Contact"*/
+#contact{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin-top: 0;
+}
+#idContact{
+  width: auto;
+  height: 300px;
+  background-color: #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+  /*fin de la partie "contact"*/
+
+  /*début du css de la maquette*/
+#maquette{
+  width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#maquette2{
+  width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-right: 10px;
+}
+#idMaquette{
+  width: auto;
+  background-color:  #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*fin du css de la maquette */
+
+/*début du css exo extra 5*/
+#Exo5{
+  width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#exoextra{
+  width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-right: 10px;
+}
+#extra5{
+  width: auto;
+  background-color:  #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*fin du css exo extra 5*/
+
+/*début du css visage*/
+#face{
+  width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  float: right;
+}
+#head{
+  width: auto;
+  height: 300px;
+  background-color:  #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*fin du css "visage"*/
+
+/*début du css "A propos"*/
+#profil{
+height: 150px;
+width: 150px;
+float: right;
+margin-bottom: auto;
+margin-top: 0;
+}
+#About{
+  width: auto;
+  background-color:  #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/*findu css "A propos"*/
+
+/*début du css de contact*/
+#form{
+  width: auto;
+  height: 500px;
+  background-color:  #577cad;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-indent: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#formulaire{
+  width: auto;
+  height:200px;
+  float: left;
+  margin-left: 150px;
+}
+#final{
+  width: auto;
+  height:200px;
+  float: right;
+  margin-right: 150px;
+}
+#imgsocial{
+  width: 100px;
+  height: 100px;
+}
+#button{
+  margin: auto;
+  display: block;
+  font-size: 20px;
+}
+#retour{
+  position: fixed;
+  bottom: 20px;
+}
+#copyright{
+  margin-top: 90px;    /*sert a mettre mon copyright en bas */
+}
